@@ -1,19 +1,64 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My landing page</title>
-    <!-- CHANGE THESE VALUES -->
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-  <div class="pill-nav">
-    <a href="home.html">Home</a>
-    <a href="#mymenu">Menu</a>
-    <a href="#mybevereges">Bevereges</a>
-    <a href="#myabout">About</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="pill-nav">
+  <a href="home.html">Home</a>
+  <a href="#models">Models</a>
+  <a href="#mybeverages">Beverages</a>
+  <a href="#myabout">About</a>
+</div>
+
+<!-- Car Models Section -->
+<section id="models">
+  <h2 class="title">Models</h2>
+
+  <div class="models-container">
+    <!-- First Car -->
+    <div class="car-card">
+      <div class="car-image" style="background-image: url('./images/769_003_highres.jpeg');">
+        <span class="car-tag">718</span>
+        <span class="fuel-type">Gasoline</span>
+      </div>
+      <div class="car-info">
+        <p>The mid-engine sports car for two made for pure driving pleasure.</p>
+        <p class="price">From $72,800*</p>
+        <button class="build-btn">Build your 718</button>
+        <button class="all-models-btn">All 718 models</button>
+      </div>
+    </div>
+
+    <!-- Second Car -->
+    <div class="car-card">
+      <div class="car-image" style="background-image: url('./images/911.jpg');">
+        <span class="car-tag">911</span>
+        <span class="fuel-type">Gasoline</span>
+      </div>
+      <div class="car-info">
+        <p>The iconic, rear-engine sports car with exceptional performance.</p>
+        <p class="price">From $120,100*</p>
+        <button class="build-btn">Build your 911</button>
+        <button class="all-models-btn">All 911 models</button>
+      </div>
+    </div>
   </div>
-  </body>
+</section>
+
+<!-- Disclaimer -->
+<div class="disclaimer">
+  <p>
+    We use cookies to enhance your browsing experience. By continuing to use our site, you agree to our
+    <a href="#">privacy policy</a>.
+  </p>
+</div>
+
+</body>
 </html>
