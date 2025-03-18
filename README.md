@@ -29,7 +29,7 @@ Founded in 1931 by Ferdinand Porsche, Porsche AG is a German automobile manufact
 
 ## Models Section
 
-![image_alt](https://github.com/selavii/tum-web-lab2/blob/48ad62b0ba2801712ebab6b53dd77d8e1793c476/image.png)
+![image_alt](https://github.com/selavii/tum-web-lab2/blob/31b351d92a2e2846ad8714fa529a1ecb46a33b77/image5.jpg)
 
 ## Location Section (Find a Center)
 
