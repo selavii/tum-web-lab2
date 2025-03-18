@@ -27,3 +27,26 @@ Founded in 1931 by Ferdinand Porsche, Porsche AG is a German automobile manufact
 - **Responsive Design** – Ensuring a seamless experience on different screen sizes.
 
 
+## Models Section
+
+![image_alt](https://github.com/selavii/tum-web-lab2/blob/48ad62b0ba2801712ebab6b53dd77d8e1793c476/image.png)
+
+## Location Section (Find a Center)
+
+![image_alt](https://github.com/selavii/tum-web-lab2/blob/48ad62b0ba2801712ebab6b53dd77d8e1793c476/image1.jpg)
+
+## Contact Us Section
+
+![image_alt](https://github.com/selavii/tum-web-lab2/blob/48ad62b0ba2801712ebab6b53dd77d8e1793c476/image2.jpg)
+
+## News Section & Footer
+
+![image_alt](https://github.com/selavii/tum-web-lab2/blob/48ad62b0ba2801712ebab6b53dd77d8e1793c476/image3.jpg)
+
+## Live demo link
+https://selavii.github.io/tum-web-lab2/
+
+
+
+
+
