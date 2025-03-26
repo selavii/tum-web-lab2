@@ -571,7 +571,7 @@ section.contact-section {
 }
 
 .cta-btn {
-    background: #f0c040;
+    background: #f2eded;
     color: black;
     padding: 15px 25px;
     font-size: 16px;
@@ -583,7 +583,8 @@ section.contact-section {
 }
 
 .cta-btn:hover {
-    background: #d9a837;
+    background: #030303;
+    color: white;
     transform: scale(1.05);
 }
 
@@ -608,5 +609,68 @@ section.contact-section {
     .cta-btn {
         font-size: 14px;
         padding: 12px 20px;
+    }
+}
+
+/* Mobile-Only Section */
+.mobile-only-section {
+    background: url('./images/mobile-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    display: none; /* Hidden by default on larger screens */
+}
+
+.mobile-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.mobile-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mobile-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.mobile-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.mobile-btn {
+    background: #ffffff;
+    color: #0f0f0f;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.mobile-btn:hover {
+    background: #0e0e0e;
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+/* Show only on mobile */
+@media (max-width: 768px) {
+    .mobile-only-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
