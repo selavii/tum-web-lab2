@@ -675,53 +675,5 @@ section.contact-section {
     }
 }
 
-/* Mascot Container */
-.mascot-container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    animation: fadeIn 2s ease-in-out 3s forwards; /* Delayed appearance */
-    opacity: 0;
-}
 
-/* Mascot Styling */
-.mascot {
-    font-size: 40px;
-    position: relative;
-    cursor: pointer;
-    animation: mascotBounce 2s infinite alternate;
-    transition: transform 0.3s ease;
-}
-
-/* Mascot Message (Hidden by Default) */
-.mascot-message {
-    position: absolute;
-    bottom: 60px;
-    right: 10px;
-    background: black;
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 14px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    white-space: nowrap;
-}
-
-/* Show Message on Hover */
-.mascot:hover .mascot-message {
-    opacity: 1;
-}
-
-/* Mascot Animation */
-@keyframes mascotBounce {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
-}
-
-/* Fade-in Animation */
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
 
